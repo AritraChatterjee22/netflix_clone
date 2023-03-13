@@ -8,7 +8,7 @@ const List = () =>{
   const listRef = useRef()
   const handleClick = (direction) =>{
     let distance = listRef.current.getBoundingClientRect().x - 50
-    if(direction === "left" && slideNumber>0){
+    if(direction === "left"){
       listRef.current.style.transform = `translateX(${230 + distance}px)`
     }
     
