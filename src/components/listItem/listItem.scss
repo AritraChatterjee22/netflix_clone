@@ -16,7 +16,10 @@
   &:hover{
     width: 325px;
     height: 300px;
-
+    position: absolute;
+    top: -140px;
+    -webkit-box-shadow: 4px 2px 16px 4px rgba(0,0,0,0.48); 
+    box-shadow: 4px 2px 16px 4px rgba(0,0,0,0.48);
     img{
       height: 140px;
     }
